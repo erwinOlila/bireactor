@@ -1,4 +1,4 @@
-#include <max6675.h>
+a#include <max6675.h>
 
 const float HEAT_RATE    = 20.0;
 const float TERMINAL     = 600.0;
@@ -78,3 +78,4 @@ double readTemp(int8_t clk, int8_t cs, int8_t miso) {
   return temperature;
 }
 
+// testing
